@@ -7,7 +7,7 @@ using UIKit;
 [assembly: ExportRenderer(typeof(BorderlessEntry), typeof(BorderlessEntryRenderer))]
 namespace TaskThree
 {
-    //[System.Obsolete]
+    [System.Obsolete]
     public class BorderlessEntryRenderer : EntryRenderer
     {
         protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
